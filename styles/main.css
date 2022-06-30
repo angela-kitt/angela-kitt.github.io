@@ -4,19 +4,9 @@ body{
   color: navy;
 }  
 
-.header-image {
-  background-image: url(“../images/beach.jpg”);
+#header-image {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
-}
-
-#header-text {
-  text-align: center;
-  position: relative;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: black;
 }
