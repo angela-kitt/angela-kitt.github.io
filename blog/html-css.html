@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSS Concepts</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500&display=swap" rel="stylesheet">
+  </head>  
+  
+  <body>
+    <header>
+      <div class=“header-image”>
+        <h2 class="centre-name">Angela Kitt</h2>
+      </div>
+      <div>
+        <nav>
+          <ul class="nav-bar">
+            <li><a href="../index.html" style="color:navy;">Home</a></li>
+            <li><a href="blogs.html" style="color:navy;">Blogs</a></li>
+            <li><a href="../about.html" style="color:navy;">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <h2>Technical Blog: CSS Concepts</h2> 
+      <p>1 July 2022</p>
+      <h3>What is the difference between Margin, Border, and Padding?</h3>
+      <p>CSS controls the layout and presentation of a HTML document. Each element in a HTML document can be thought of as a container or invisible rectangular-layered box. The different layers of the box consists of: margin, border, padding and content. You can see a representation of the CSS box model below (<a href="https://www.webcodzing.com/css-box-model/">Source.</a>):</p>
+      <p>
+        <img src="../images/box-model.jpg" alt="CSS Box Model" style="max-width:100%;">
+      </p>
+      <p>
+        <ul>
+          <li><strong>Content</strong>: The actual content of the box, for example text or images</li>
+          <li><strong>Padding</strong>: The immediate area around the content. The padding is transparent</li>
+          <li><strong>Border</strong>: A border that surrounds the padding and content</li>
+          <li><strong>Margin</strong>: An area outside the border. The margin is also transparent</li>
+        </ul>
+      </p>
+      <h3>Content</h3>
+      <p>The content is the HTML element inside of the 'box', it can be an image, a paragraph, a web button or even empty space. When specifying height and width for the element, this only applies to the content. If padding or a border is added, this will add extra height and width to the box.
+      </p>
+      <h3>Padding</h3>
+      <p>Padding is used to create a transparent space around an element's content and inside of any borders. The following properties can be used.</p>
+      <p>
+        <ul>
+          <li>padding</li>
+          <li>padding-top</li>
+          <li>padding-right</li>
+          <li>padding-bottom</li>
+          <li>padding-left</li>
+        </ul>
+      </p>
+      <p>When only the property 'padding' is used and there is only one value, that value applies to all four sides.</p>
+      <p>You can also use the padding-top, padding-right, padding-bottom and/or padding-left properties to specify different values for the different sides. CSS examples below:</p>
+      <p>
+        <img src="../images/sprint-2-tech-blog-padding.jpg" alt="CSS Padding Examples" style="max-width:100%;">
+      </p>
+      <h3>Border</h3>
+      <p>A border can be placed around an element's content and padding. Many different properties can be used, the most common are:</p>
+      <p>
+        <ul>
+          <li>border-style</li>
+          <li>border-width</li>
+          <li>border-color</li>
+          <li>border-radius</li>
+          <li>border</li>
+        </ul>
+        <p>Border-style alone has many different values: dotted, dashed, solid, etc. Border-width and border-color are self-explanatory, border-radius is used when you want a rounded border.</p>
+        <p>When only the property 'border' is used, it can be used as shorthand for the following properties: border-width, border-style (required) and border-color. In the CSS examples below, you can see two different ways of producing the same border:</p>
+        <p>
+          <img src="../images/sprint-2-tech-blog-border.jpg" alt="CSS Border Examples" style="max-width:100%;">
+        </p>
+        <p></p>
+      </p>
+      <h3>Margin</h3>
+      <p>A margin is used to create a transparent space around elements, outside of any borders. The following properties can be used.</p>
+      <p>
+        <ul>
+          <li>margin-top</li>
+          <li>margin-right</li>
+          <li>margin-bottom</li>
+          <li>margin-left</li>
+          <li>margin</li>
+        </ul>
+      </p>
+      <p>You can use the margin-top, margin-right, margin-bottom and/or margin-left properties to specify different values for the different sides.</p>
+      <p>When only the property 'margin' is used, if there are four values listed they represent the following properties in order: margin-top, margin-right, margin-bottom and margin-left, otherwise if there is only one value then it applies to all four sides equally. CSS examples below:</p>
+      <p>
+        <img src="../images/sprint-2-tech-blog-margin.jpg" alt="CSS Margin Examples" style="max-width:100%;">
+      </p>
+      <h3>When should you use Margin, Border or Padding?</h3>
+      <p>It's really up to you, these properties are there as tools you can use to arrange the elements on the page as you wish. They can help the page look well-balanced, uncluttered and aesthetically pleasing.</p>
+    </main>
+    <footer> 
+      <p>Created by Angela Kitt 2022</p>
+      <p>Header photo by Sean Oulashin on Unsplash</p>
+    </footer>
+  </body>
+</html>
