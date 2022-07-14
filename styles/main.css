@@ -1,5 +1,5 @@
 body {
-  background-color: #F6E3C5;
+  background-color: white;
   font-family: 'Fira Sans', Arial, sans-serif;
   color: navy;
   position: relative;
@@ -85,6 +85,16 @@ footer {
   font-size: 14px;
   text-align: center;
   color: gray;
+}
+
+.portrait {
+  float: right;
+}
+
+.move-right {
+  float: right;
+  margin-left: 4%;
+  margin-right: 6%;
 }
 
 @media screen and (max-width: 320px) {
